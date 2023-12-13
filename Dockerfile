@@ -1,4 +1,8 @@
-FROM python:3.8
+FROM python:3.8-slim-bullseye
+
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends git \
+    && rm -rf /var/lib/apt/lists/*
 
 # Create the directories
 RUN mkdir -p app/ app/tiles/
