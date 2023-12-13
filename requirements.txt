@@ -2,6 +2,7 @@ affine==2.3.0
 attrs==21.4.0
 CacheControl==0.12.10
 certifi==2021.10.8
+chardet==5.2.0
 charset-normalizer==2.0.10
 click==8.0.3
 click-plugins==1.1.1
