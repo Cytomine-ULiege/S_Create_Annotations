@@ -1,7 +1,7 @@
 {
   "name": "Create_Annotations",
   "container-image": {
-    "image": "bathienle/s_create_annotations",
+    "image": "cytomineuliege/s_create_annotations",
     "type": "singularity"
   },
   "description": "Create annotations from a given threshold on a heatmap.",
